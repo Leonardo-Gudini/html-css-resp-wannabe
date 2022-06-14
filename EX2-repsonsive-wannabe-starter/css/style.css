@@ -132,6 +132,10 @@ img {
     .container{
         max-width: 768px;
     }
+
+    .row{
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width: 480px){
@@ -147,9 +151,10 @@ img {
 
     .row{
         flex-direction: column;
+        flex-wrap: wrap;
     }
 
-    .lessons .col, .steps .col, .col{
+    .col{
         width: 100%;
     }
 
