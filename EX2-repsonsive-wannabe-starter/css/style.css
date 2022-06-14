@@ -154,7 +154,7 @@ img {
         flex-wrap: wrap;
     }
 
-    .col{
+    .lessons .col, .steps .col, .col{
         width: 100%;
     }
 
