@@ -133,3 +133,39 @@ img {
         max-width: 768px;
     }
 }
+
+@media screen and (max-width: 480px){
+
+    .container{
+        max-width: 480px;
+    }
+
+    h2{
+        max-width: 80%;
+        margin: 50px auto;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .lessons .col, .steps .col, .col{
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    body{
+        background: #222222
+    }
+
+    img{
+        margin: 30px auto;
+    }
+}
